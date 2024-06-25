@@ -51,12 +51,15 @@ nav a.active {
 }
 
 main {
-    padding: 1em;
     display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
 }
-section{
-    gap: 2em;
-    padding: 5px;
+
+/* Style the section elements with padding and a white background */
+section {
+    padding: 1rem;
+    background-color: #fff;
 }
 .card {
     display: grid;

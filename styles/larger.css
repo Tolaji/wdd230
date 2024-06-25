@@ -1,9 +1,9 @@
 @media (min-width: 768px) {
-    main {
-        grid-template-columns: 2fr 1fr;
+    nav {
+        flex-direction: row;
     }
 
-    .card:nth-child(1) {
-        grid-column: span 2;
+    .grid-container {
+        grid-template-columns: 2fr 1fr;
     }
 }
