@@ -207,9 +207,9 @@ footer p {
         font-size: 40px;
     }
 
-    .hamburger {
+    /* .hamburger {
         display: flex;
-    }
+    } */
 
     .menu {
         position: absolute;
