@@ -1,41 +1,9 @@
-/* @media (min-width: 768px) {
+@media (min-width: 1024px) {
     nav {
-        flex-direction: column;
+            flex-direction: row;
+        }
+    
+        .grid-container {
+            grid-template-columns: 2fr 1fr;
+        }
     }
-
-    .container {
-        grid-template-columns: 2fr 1fr;
-    }
-} */
-
-
-
-/* @media (min-width: 760px) {
-    .container {
-        grid-template-columns: 1fr;
-    }
-
-    .pix {
-        width: 131.25px;
-        height: 150px;
-    }
-
-    header img {
-        margin: auto auto;
-    }
-
-    nav {
-        flex-direction: column;
-    }
-
-    nav a {
-        padding: 90px 80px;
-        font-size: 60px;
-    }
-
-    main {
-        width: 90%;
-    }
-
-
-} */
