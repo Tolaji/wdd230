@@ -213,13 +213,13 @@ nav a:hover {
     width: 400px;
 }
 
-.sm-menu {
+/* .sm-menu {
     grid-area: home;
     background-color: #ccc;
     line-height: 3em;
     grid-column: 5/7;
     grid-row: 5/6;
-}
+} */
 
 .sm-discover {
     grid-area: page2;
@@ -256,7 +256,7 @@ nav a:hover {
     grid-area: top;
     border-left: 1px solid;
     grid-column: 6;
-    grid-row: 6/7;
+    grid-row: 6/3;
 }
 
 .left {
