@@ -74,6 +74,11 @@ h2 {
     text-align: center;
 }
 
+h6 {
+    font-family: var(--title-font);
+    color: var(--accent1-color);
+}
+
 p {
     margin: 20px 0 10px;
     font-family: var(--paragraph-font);
