@@ -97,6 +97,8 @@ hr {
 ul {
     list-style-type: none;
     text-decoration: none;
+    color: var(--paragraph-color-on-white);
+    font-family: var(--paragraph-font);
 }
 
 section {
