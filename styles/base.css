@@ -176,7 +176,7 @@ ul .ordered-list {
 footer {
     display: flex;
     flex-direction: row;
-    background-color: var(--primary-color);
+    background-color: var(--accent2-color);
     color: var(--accent1-color);
     text-align: center;
     padding: 1px 0px;
