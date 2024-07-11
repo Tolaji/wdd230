@@ -20,24 +20,42 @@
     <link href="styles/larger.css" rel="stylesheet"/>
     
     
+    
 </head>
 <body>
     <header>
         <img class="pix" src="images/just-me.webp" alt="'Tola's Profile Picture">
         <span>Bro Adetokunbo 'Tola Osibo</span>
+
+        <!-- Dark mode button -->
+        <!-- <button id="darkModeToggle"></button> -->
+
+        <!-- Hambuger Menu -->
+        <div class="hamburger open" id="hamburger">
+            <div>
+                <div id="extwaiokist" style="display:none" v="efmeb" q="2628b39a" c="976.3" i="1034" u="24.31" s="06112421"
+                    sg="svr_09102316-ga_06112421-bai_07082405" d="1" w="false" e="" a="2" m="BMe=" vn="9axur">
+                    <div id="extwaigglbit" style="display:none" v="efmeb" q="2628b39a" c="976.3" i="1034" u="24.31" s="06112421"
+                        sg="svr_09102316-ga_06112421-bai_07082405" d="1" w="false" e="" a="2" m="BMe="></div>
+                </div>
+            </div>
+            <div></div>
+            <div></div>
+        </div>
     </header>
     
-    <nav>
+    <nav id="menu-nav" class="main-nav">
             <a class="active" href="index.html">Home</a>
             <a href="chamber.html">Chamber</a>
             <a href="week01/chamber-site-plan.html">Site Plan</a>
             <a href="form.html">Form</a>
     </nav>
     
-    <main>
+    <main style="transform: translateY(0vh); transition: transform 0.3s ease 0s;"></main>
         <h1>WDD 230: Web Frontend Development</h1>
         <hr>
-        <div class="container">
+        
+        <div class="containers">
             <section class="card">
                 <h2>Learning Activities</h2>
                 <ul class="ordered-list">
@@ -79,6 +97,7 @@
     </footer>
 
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/index-scripts.js"></script>
 </body>
 
 </html>

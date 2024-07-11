@@ -11,3 +11,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         lastModifiedElement.textContent = `Last Modified: ${lastModified}`;
     }
 });
+
+function myFunction(x) {
+            x.classList.toggle("change");
+        }
