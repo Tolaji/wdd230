@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
     <link rel="stylesheet" href="styles/normalize.css">
-    <link href="styles/base.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles/base.css" id="theme-link"/>
+    <!-- <link rel="stylesheet" href="styles/dark-mode.css"> -->
     <link href="styles/larger.css" rel="stylesheet"/>
     
     
@@ -26,9 +27,6 @@
     <header>
         <img class="pix" src="images/just-me.webp" alt="'Tola's Profile Picture">
         <span>Bro Adetokunbo 'Tola Osibo</span>
-
-        <!-- Dark mode button -->
-        <!-- <button id="darkModeToggle"></button> -->
 
         <!-- Hambuger Menu -->
         <div class="hamburger open" id="hamburger">
@@ -52,7 +50,18 @@
     </nav>
     
     <main style="transform: translateY(0vh); transition: transform 0.3s ease 0s;"></main>
-        <h1>WDD 230: Web Frontend Development</h1>
+        <article class="day-night">
+            <div id="toggle">
+                <h1>WDD 230: Web Frontend Development</h1>
+            </div>
+            <div id="toggle" class=''>
+                <label class="toggle-switch">
+                    <input type='checkbox' id="switch">
+                    <span class='slider'></span>
+                </label>
+            </div>
+        </article>
+        
         <hr>
         
         <div class="containers">
